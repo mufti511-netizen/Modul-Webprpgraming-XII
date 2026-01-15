@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modul Pemrograman Web XII 1 – Kurikulum Deep Learning</title>
+
+  <style>
+    :root{
+      --card-bg:#ffffff;
+      --shadow:0 8px 32px rgba(0,0,0,0.12);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:"Segoe UI",system-ui,Arial,sans-serif;
+      background:#f1f5f9;
+      color:#0f172a;
+      line-height:1.7;
+    }
+    section{
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:48px 24px;
+    }
+    .slide{
+      background:var(--card-bg);
+      border-radius:18px;
+      box-shadow:var(--shadow);
+      padding:40px;
+      max-width:1100px;
+      width:100%;
+    }
+    h1,h2,h3{text-align:center}
+    p.lead{text-align:center;max-width:900px;margin:0 auto}
+    ul,ol{margin:16px 0 0 22px}
+    li{margin:10px 0}
+    img{
+      max-width:100%;
+      border-radius:12px;
+      margin:18px 0;
+      box-shadow:0 4px 16px rgba(0,0,0,.1);
+    }
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin-top:16px;
+    }
+    table th, table td{
+      border:1px solid #e5e7eb;
+      padding:10px;
+    }
+    table th{
+      background:#f1f5f9;
+    }
+    .note{
+      margin-top:18px;
+      background:#f8fafc;
+      padding:16px;
+      border-radius:12px;
+      border-left:5px solid #2563eb;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ===================== -->
+<!-- SLIDE 1 (ASLI) -->
+<!-- ===================== -->
+<section>
+  <div class="slide">
+    <h1>📘 MODUL AJAR PEMROGRAMAN WEB XII RPL Bagian 1</h1>
+    <h2>Analisis Perancangan Sistem Informasi</h2>
+    <p class="lead">
+      <strong>Membangun Sistem Informasi Peminjaman Alat Berbasis Web</strong><br>
+      Kelas XII – Rekayasa Perangkat Lunak (RPL)
+    </p>
+    <p>
+      Modul ini dirancang untuk membekali Murid dengan kemampuan
+      <strong>berpikir sistematis, analitis, kritis, dan bertanggung jawab</strong>
+      dalam merancang serta mengembangkan sistem informasi berbasis web
+      yang relevan dengan kebutuhan dunia kerja dan dunia industri.
+    </p>
+    <p style="text-align:right"><strong>Guru:</strong> Mufti Adiyatma, A.Md.</p>
+  </div>
+</section>
+
+<!-- ===================== -->
+<!-- SLIDE 2 (ASLI) -->
+<!-- ===================== -->
+<section>
+  <div class="slide">
+    <h2>🎯 Capaian & Tujuan Pembelajaran</h2>
+    <ul>
+      <li>Memahami konsep sistem informasi berbasis web</li>
+      <li>Menganalisis kebutuhan sistem peminjaman alat</li>
+      <li>Menyusun diagram UML secara benar dan konsisten</li>
+      <li>Merancang dashboard aplikasi web</li>
+      <li>Mengimplementasikan desain ke dalam HTML</li>
+    </ul>
+    <div class="note">
+      Pembelajaran menggunakan pendekatan
+      <strong>Project Based Learning (PjBL)</strong>
+      yang mendorong pembelajaran bermakna dan mendalam
+      sesuai prinsip <strong>Kurikulum Deep Learning</strong>.
+    </div>
+  </div>
+</section>
+
+<!-- ===================== -->
+<!-- SLIDE 3 (ASLI) -->
+<!-- ===================== -->
+<section>
+  <div class="slide">
+    <h2>🏗️ Konsep Sistem Informasi</h2>
+    <p class="lead">
+      Sistem Informasi adalah suatu kesatuan yang terdiri dari
+      <strong>manusia, perangkat keras, perangkat lunak, data,
+      prosedur, dan jaringan</strong> yang saling berinteraksi
+      untuk menghasilkan informasi yang bernilai.
+    </p>
+    <ul>
+      <li><strong>Input</strong> → Data peminjaman alat</li>
+      <li><strong>Process</strong> → Validasi dan pengolahan data</li>
+      <li><strong>Output</strong> → Informasi dan laporan</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===================== -->
+<!-- SLIDE 4 (ASLI) -->
+<!-- ===================== -->
+<section>
+  <div class="slide">
+    <h2>🔍 Analisis Kebutuhan Sistem</h2>
+    <ul>
+      <li>Identifikasi permasalahan peminjaman alat</li>
+      <li>Identifikasi aktor yang terlibat</li>
+      <li>Menentukan kebutuhan fungsional</li>
+      <li>Menentukan kebutuhan non-fungsional</li>
+    </ul>
+    <div class="note">
+      Analisis kebutuhan merupakan tahap paling krusial
+      karena menentukan kualitas sistem yang akan dibangun.
+    </div>
+  </div>
+</section>
+
+<!-- ===================== -->
+<!-- TAMBAHAN UML DETAIL -->
+<!-- ===================== -->
+
+<section>
+  <div class="slide">
+    <h2>📐 Use Case Diagram</h2>
+
+    <h3>Pengertian</h3>
+    <p>
+      Use Case Diagram adalah diagram UML yang digunakan untuk
+      menggambarkan <strong>interaksi antara aktor dengan sistem</strong>.
+      Diagram ini berfokus pada <em>apa yang dilakukan sistem</em>,
+      bukan bagaimana cara kerjanya.
+    </p>
+
+    <h3>Fungsi</h3>
+    <ul>
+      <li>Memetakan kebutuhan fungsional sistem</li>
+      <li>Menentukan ruang lingkup sistem</li>
+      <li>Menjadi dasar perancangan diagram lain</li>
+    </ul>
+
+    <h3>Simbol Use Case</h3>
+    <table>
+      <tr><th>Simbol</th><th>Nama</th><th>Keterangan</th></tr>
+      <tr><td>👤</td><td>Aktor</td><td>Pengguna sistem</td></tr>
+      <tr><td>⭕</td><td>Use Case</td><td>Fungsi sistem</td></tr>
+      <tr><td>▭</td><td>System Boundary</td><td>Batas sistem</td></tr>
+      <tr><td>—</td><td>Association</td><td>Relasi aktor dan sistem</td></tr>
+    </table>
+
+    <h3>Contoh Implementasi Sistem Peminjaman Alat</h3>
+    <img src="https://www.researchgate.net/profile/Sasono-Wibowo/publication/353057003/figure/fig1/AS:1043096880046081@1625705084758/Gambar-7-Use-case-diagram-sistem-informasi-manajemen-aset.png"
+         alt="Use Case Diagram Sistem Peminjaman Alat">
+
+    <div class="note">
+      Use Case Diagram membantu peserta didik memahami
+      fungsi sistem secara utuh sebelum masuk ke tahap teknis.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="slide">
+    <h2>🔄 Activity Diagram</h2>
+
+    <h3>Pengertian</h3>
+    <p>
+      Activity Diagram menggambarkan <strong>alur aktivitas atau proses bisnis</strong>
+      dalam sistem dari awal hingga akhir secara berurutan.
+    </p>
+
+    <h3>Simbol Activity Diagram</h3>
+    <table>
+      <tr><th>Simbol</th><th>Nama</th></tr>
+      <tr><td>●</td><td>Initial Node</td></tr>
+      <tr><td>▭</td><td>Activity</td></tr>
+      <tr><td>◇</td><td>Decision</td></tr>
+      <tr><td>◎</td><td>Final Node</td></tr>
+    </table>
+
+    <h3>Contoh Alur Peminjaman Alat</h3>
+    <img src="https://www.researchgate.net/profile/Egia-Rosi-Subhiyakto/publication/315794993/figure/fig1/AS:669013214494722@1536516588423/Gambar-4-Diagram-aktivitas-sistem-inventori-barang.png"
+         alt="Activity Diagram">
+
+    <div class="note">
+      Activity Diagram menekankan logika proses
+      dan membantu peserta didik berpikir runtut.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="slide">
+    <h2>⏱️ Sequence Diagram</h2>
+
+    <h3>Pengertian</h3>
+    <p>
+      Sequence Diagram menggambarkan <strong>urutan komunikasi antar objek</strong>
+      dalam sistem berdasarkan dimensi waktu.
+    </p>
+
+    <h3>Objek yang Terlibat</h3>
+    <ul>
+      <li>User</li>
+      <li>Antarmuka</li>
+      <li>Controller</li>
+      <li>Database</li>
+    </ul>
+
+    <img src="https://lh6.googleusercontent.com/-C12EbceDaRc/VKtzOpMKYzI/AAAAAAAAB-4/HU7rjjTAf34/w581-h250-no/SQ%2Bdiagram%2Bbarang%2Blaporan.png"
+         alt="Sequence Diagram">
+
+    <div class="note">
+      Diagram ini membantu memahami alur komunikasi
+      sebelum implementasi program dilakukan.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="slide">
+    <h2>🧱 Class Diagram</h2>
+
+    <h3>Pengertian</h3>
+    <p>
+      Class Diagram menggambarkan <strong>struktur kelas, atribut,
+      metode, dan relasi</strong> yang akan diimplementasikan
+      ke dalam kode program dan database.
+    </p>
+
+    <h3>Contoh Kelas</h3>
+    <ul>
+      <li>User</li>
+      <li>Alat</li>
+      <li>Peminjaman</li>
+      <li>DetailPeminjaman</li>
+    </ul>
+
+    <img src="class-diagram.png"
+         alt="Class Diagram UML">
+
+    <div class="note">
+      Class Diagram menjadi jembatan
+      antara analisis sistem dan tahap pengkodean.
+    </div>
+  </div>
+</section>
+
+<footer style="text-align:center;padding:32px;color:#64748b">
+  © Mufti Adiyatma • Modul Ajar Kurikulum Deep Learning
+</footer>
+
+</body>
+</html>
